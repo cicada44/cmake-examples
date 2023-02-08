@@ -22,10 +22,27 @@ void char_literal()
               << "\nstring literal: " << string_literal << '\n';
 }
 
+void nonprintable_characters()
+{
+    std::cout << "\\n - \n"
+              << '\n'
+              << "\\t - \t" << '\n'
+              << "\\a - \a" << '\n'
+              << "\\v - \v" << '\n'
+              << "\\b - \b" << '\n'
+              << "\\\" - \" " << '\n'
+              << "\\\\ - \\" << '\n'
+              << "\\? - \?" << '\n'
+              << "\\' - \'" << '\n'
+              << "\\r - \r" << '\n'
+              << "\\f - \f" << '\n';
+}
+
 int main()
 {
     // notation();
-    char_literal();
+    // char_literal();
+    nonprintable_characters();
 
     return 0;
 }

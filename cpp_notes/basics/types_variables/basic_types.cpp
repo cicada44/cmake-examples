@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include <map>
+
 void size_of_basic_types()
 {
     std::cout << "bool - " << sizeof(bool) << '\n'
@@ -23,10 +25,19 @@ void int_overflow()
     std::cout << "unsgned n: " << n << '\n' << "n - 2" << n - 2 << '\n';
 }
 
+void initialisation_types()
+{
+    int unit1 = 0;
+    int unit2 = {0};
+    int unit3{0};
+    int unit4(0);
+}
+
 int main()
 {
     // size_of_basic_types();
-    int_overflow();
+    // int_overflow();
+    initialisation_types();
 
     return 0;
 }
