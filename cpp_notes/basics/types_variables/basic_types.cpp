@@ -60,13 +60,53 @@ void type_alias()
     cout << "d2 - " << d2 << '\n';
 }
 
+void auto_vars()
+{
+    int i = 0, &r = i;
+
+    auto a = r;
+    const int ci = i, &cr = ci;
+    auto b = ci, c = cr;
+    auto d = &i;
+    auto e = &ci;
+    const auto f = ci;
+    auto& g = ci;
+
+    a = 42;
+    b = 42;
+    c = 42;
+    // d = 42;
+    // e = 42;
+    // g = 42;
+
+    cout << "a - " << a << '\n';
+    cout << "b - " << b << '\n';
+    cout << "c - " << c << '\n';
+    cout << "d - " << d << '\n';
+}
+
+void decltype_vars()
+{
+    int a = 3, b = 4;
+    decltype(a) c = a;
+    decltype((b)) d = a;
+    ++c;
+    ++d;
+
+    cout << "a - " << a << '\n';
+    cout << "b - " << b << '\n';
+    cout << "c - " << c << '\n';
+    cout << "d - " << d << '\n';
+}
+
 int main()
 {
     // size_of_basic_types();
     // int_overflow();
     // initialisation_types();
     // basic_constants();
-    type_alias();
+    // type_alias();
+    decltype_vars();
 
     return 0;
 }
