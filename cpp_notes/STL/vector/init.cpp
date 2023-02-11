@@ -29,9 +29,19 @@ void init()
     print_vec(v4);
 }
 
+void constructors()
+{
+    int arr[] = {1, 2, 3, 4, 5};
+
+    vector<int> vec(std::begin(arr), std::end(arr));
+
+    print_vec(vec);
+}
+
 int main()
 {
-    init();
+    // init();
+    constructors();
 
     return 0;
 }

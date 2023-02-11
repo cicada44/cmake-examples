@@ -18,9 +18,19 @@ void pointers_refs()
     int(*Parray)[10] = &arr;
 
     int(&arr_ref)[10] = arr;
+
+    int arr_n[3];
+
+    int* arr_p = arr_n;
+
+    cout << "arr_r - " << arr_p << '\n';
+    cout << "arr_r - " << &arr_n[0] << '\n';
 }
 
 int main()
 {
+    // init();
+    pointers_refs();
+
     return 0;
 }
