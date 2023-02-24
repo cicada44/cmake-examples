@@ -51,6 +51,16 @@ void const_iterators()
     cout << '\n';
 }
 
+void reverse_iterators()
+{
+    vector<int> v{1, 2, 3, 4, 5};
+
+    for (auto i = v.rbegin(); i != v.rend(); ++i) {
+        cout << *i << ' ';
+    }
+    cout << '\n';
+}
+
 void math_events()
 {
     vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
@@ -68,6 +78,7 @@ int main()
 {
     // basics_of_iterators();
     // const_iterators();
+    reverse_iterators();
     // math_events();
 
     return 0;
