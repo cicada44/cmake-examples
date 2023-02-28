@@ -1,1 +1,2 @@
-*.out
+# Executable
+./a.out

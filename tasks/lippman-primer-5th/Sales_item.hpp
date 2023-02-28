@@ -143,4 +143,5 @@ double Sales_item::avg_price() const
     else
         return 0;
 }
+
 #endif
