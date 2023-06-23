@@ -1,9 +1,0 @@
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/untitled.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/install/strip.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
-/home/cicada44/cicada-main/edu/training/QT/build-untitled-Desktop_Qt_6_4_0_GCC_64bit-Debug/CMakeFiles/untitled_autogen.dir
