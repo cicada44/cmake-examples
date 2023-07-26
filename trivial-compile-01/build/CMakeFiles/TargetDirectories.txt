@@ -1,3 +1,0 @@
-/home/cicada44/cicada-main/edu/cmake-examples/trivial-compile-01/build/CMakeFiles/HelloCmake.dir
-/home/cicada44/cicada-main/edu/cmake-examples/trivial-compile-01/build/CMakeFiles/edit_cache.dir
-/home/cicada44/cicada-main/edu/cmake-examples/trivial-compile-01/build/CMakeFiles/rebuild_cache.dir
