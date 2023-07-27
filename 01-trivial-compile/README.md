@@ -1,4 +1,4 @@
-# Trivial compilation in CMake
+# Trivial compilation
 
 ## Generate files
 
